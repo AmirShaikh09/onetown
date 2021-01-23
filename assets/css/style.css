@@ -1,0 +1,352 @@
+body{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.bgcolor.scrolled{
+    background-color: rgba(59, 57, 57, 0.685);
+}
+
+nav.navbar{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-right{
+     font-size: 1.4rem;
+}
+
+.navbar-light .navbar-brand{
+    color: white;
+}
+
+#navbarTogglerDemo02 a{
+    color: white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    transition: 700ms ease;
+}
+
+#navbarTogglerDemo02 a:hover{
+    color: #cfc2c260;
+}
+
+.home {
+    background: rgba(177, 106, 162, 0.5) url("https://images.unsplash.com/photo-1530542640453-4090dfcc1999?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-blend-mode: darken;
+}
+
+.home-left, .home-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-left h1{
+    margin: 0px;
+    color: white;
+}
+
+.home-left h3{
+    margin: 0px;
+    color: white;
+}
+
+.home-right p{
+    color: white;
+    font-size: 1.1rem;
+}
+
+.home-right button{
+    background-color: transparent;
+    background: transperent;
+    border: 1px solid white;
+    color: white;
+    padding: 0 30px;
+    transition: 700ms ease;
+    text-transform: uppercase;
+}
+
+.home-right button:hover{
+    color: black;
+    background: white;
+}
+
+#extra-bar{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.extra-bar-content{
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.extra-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.extra-right hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+}
+
+.extra-bar-content h1, h3{
+    color: black;
+}
+
+.extra-bar-content h3{
+    font-size: 1rem;
+}
+
+.extra-right button{
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 0px 30px;
+    transition: 700ms ease;
+}
+
+.extra-right button:hover{
+    background: black;
+    color: white;
+}
+
+.page-header{
+    border-bottom: 0px;
+}
+
+.featured-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#featured{
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+}
+
+#featured hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+    margin-bottom: 40px;
+}
+
+#featured button{
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin: 20px 0px;
+    padding: 0px 30px;
+    transition: 700ms ease;
+}
+
+#featured button:hover{
+    background: black;
+    color: white;
+}
+
+#services .row div{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+#services hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+    margin-bottom: 40px;
+}
+
+#about-us{
+    background: rgba(0, 0, 0, 0.46) url("https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1053&q=80");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-blend-mode: darken;
+}
+
+#about-us ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.fa-lg{
+    color: white;
+}
+
+#about-us hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+}
+
+.thumbnail{
+    padding: 0px;
+    background-color: transparent;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+
+.thumbnail .caption{
+    color: white;
+}
+
+.thumbnail img{
+    height: 250px;
+    width: 100%;
+}
+
+.thumbnail hr{
+    width: 100%!important;
+    margin: 0px;
+}
+
+#testimonials{
+    padding-bottom: 30px;
+}
+
+#testimonials h2{
+    color: #717171;
+}
+
+.testimonial-text{
+    color: #646464;
+    padding-bottom: 40px;
+}
+
+#testimonials hr{
+    width: 30px;
+    border-top: 1px solid #B2B0B2;
+    margin-bottom: 40px;
+}
+
+#contact-us{
+    background-color: #2B63C2;
+}
+
+#contact-us h3{
+    color: white;
+    padding: 30px 0;
+}
+
+#contact h2{ 
+    color: white;
+}
+
+#contact-us h3 > span{
+    font-weight: 1000;
+}
+
+#contact-us hr{
+    width: 30px;
+    border-top: 1px solid white;
+    margin-bottom: 40px;
+}
+
+#contact-us button{
+    width: 100%;
+    padding: 6px 12px;
+    background-color: #204A92;
+    color: white;
+    border: 0px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px 0px;
+    transition: 700ms ease;
+}
+
+#contact-us button:hover{
+    background: white;
+    color: black;
+}
+
+#contact-us ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 40%;
+    margin: 50px auto;
+}
+
+.newsletter-form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.newsletter-form input{
+    border-radius: 0px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border: 0px;
+    border: 1px solid white;
+    padding: 20px 0px;
+}
+
+.validationText{
+    color:rgb(243, 83, 83);
+    display:none;
+    text-align: center
+}
+
+.newsletter-form p{
+    margin: 0px;
+}
+
+.newsletter-form > ::placeholder{
+    color: #5fadc0;
+}
+
+#footer{
+    background-color: rgb(56, 56, 56);
+    padding: 20px 0 20px 0;
+}
+
+footer li{
+    display: inline;
+}
+
+footer li>a{
+    color: rgb(161, 159, 159);
+    font-size: 0.99rem;
+    text-transform: uppercase;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+
+footer li>a:hover{
+    background-color: rgb(56, 56, 56); 
+    color: white;
+    text-decoration: none;
+}
